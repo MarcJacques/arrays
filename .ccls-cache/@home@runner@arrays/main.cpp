@@ -9,17 +9,14 @@ int main() {
   list[2] = 20;
   list[4] = list[0] + list [2];
 
-  cout << "Enter array data";
+  cout << "Enter array data" << endl;
   cin >> list[1];
   cin >> list[3];
 
-  cout << list[1] << endl;
-  int value;
-
-  for (int i = 0; i <= (sizeof(list) - 1); i++)
+  for (int i = 0; i < SIZE ; i++)
     {
-      value = list[i];
-      cout << value << endl;
+      
+      cout << list[i] << endl;
     }
   return 0;
 }
